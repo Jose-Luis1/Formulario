@@ -1,0 +1,77 @@
+body{
+    /*background-color: rgb(199, 203, 222);*/
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+
+ form{
+    /*background-color: rgb(177, 191, 204);*/
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f46b45;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+
+ form label{
+    width: 100%;
+    display: inline-block;
+    font-weight: bold;
+ }
+
+ form input{
+    width: 100%;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.996);
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ h2{
+    text-align: center;
+ }
+
+#btn-enviar-datos{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#btn-limpiar-datos{
+    padding: 10px 20px;
+    background-color: #d12020;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#p-mensaje-error{
+   border: 2px solid red;
+   height: 20px;
+   padding: 20px;
+   background-color: rgb(221, 228, 234); 
+}
+
+#p-mensaje-confirmacion{
+    border: 2px solid green;
+    height: 20px;
+    padding: 20px;
+    background-color: rgb(221, 228, 234); 
+ }
+
+
+
+
+
+
